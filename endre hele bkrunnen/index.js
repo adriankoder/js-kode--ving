@@ -24,10 +24,14 @@
 
 // Legg til en lytter for museklikk på knappen
 
-const farge = document.querySelector("#color");
-let darkMode = true;
-function changeColor() {
-    console.log(darkMode)
-    farge.style.backgroundColor = "blue";  
-    darkMode =!darkMode;
-console.log(darkMode);}
+const farge = document.querySelector("#click_me");
+let darkmode = false;
+farge.addEventListener("click", function() {
+    // Koden her blir utført når knappen blir klikket
+  
+ farge.style.backgroundColor = "black";
+});changeColor
+function changeColor(){
+    farge.style.backgroundColor = "black";
+    console.log = (darkmode);
+}

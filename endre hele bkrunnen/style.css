@@ -1,6 +1,6 @@
-#color {
-    width: 100px;
-    height: 100px;
+body
+{
     background-color: red; /* Initial color */
     margin-bottom: 10px;
 }
+.darkMode {background-color:black;}
