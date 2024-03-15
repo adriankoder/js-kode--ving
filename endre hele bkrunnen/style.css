@@ -1,6 +1,8 @@
-body
-{
+/*Make the entire background read*/
+.color {
+    
     background-color: red; /* Initial color */
     margin-bottom: 10px;
 }
-.darkMode {background-color:black;}
+
+.black {background-color:black;}
